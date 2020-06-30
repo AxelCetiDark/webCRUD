@@ -33,9 +33,9 @@ $consulta2 =mysqli_query($conexion,"select reading.current_chapter,reading.score
         </header>
         <nav class="menu">
       <ul><br/><br/><br/><br/>
-		<li><a href="index.php">biblioteca</a></li>
-        <li><a href="index.php">leidos</a></li>
-        <li><a href="index.php">configuracion</a></li>
+		<li><a href="index.php">Biblioteca</a></li>
+        <li><a href="index.php">Leidos</a></li>
+        <li><a href="index.php">Configuraci&oacute;n</a></li>
         <li><a href="../index.php">Log out</a></li>
       </ul>      
         
