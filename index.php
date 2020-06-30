@@ -28,7 +28,8 @@
 	$consulta1 =mysqli_query($conexion,"select * from users") or die ("fallo en la consulta");
 	if (isset($_POST['usuario']))
 	{
-	$usuario= $_POST['usuario'];
+	//Hola mundo
+		$usuario= $_POST['usuario'];
 	$cont1= $_POST['cont1'];
 	$cont1= md5($cont1);
 	$advert="la contraseña o el Usuario no coinciden";
